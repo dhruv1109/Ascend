@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,21 +11,21 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{% static 'elevate/assets/img/favicon.png'%}" rel="icon">
+  <link href="{% static 'elevate/assets/img/apple-touch-icon.png'%}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="{% static 'elevate/assets/vendor/aos/aos.css'%}" rel="stylesheet">
+  <link href="{% static 'elevate/assets/vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'elevate/assets/vendor/bootstrap-icons/bootstrap-icons.css'%}" rel="stylesheet">
+  <link href="{% static 'elevate/assets/vendor/glightbox/css/glightbox.min.css'%}" rel="stylesheet">
+  <link href="{% static 'elevate/assets/vendor/swiper/swiper-bundle.min.css'%}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="{% static 'elevate/assets/css/style.css'%}" rel="stylesheet">
 
  
 </head>
@@ -89,7 +90,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6" >
             <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+              <img src="{% static 'elevate/assets/img/speakers/1.jpg'%}" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">McKinsey & Company</a></h3>
                 <p>Junior Software Developer</p>
@@ -107,7 +108,7 @@
 
           <div class="col-lg-4 col-md-6" >
             <div class="speaker" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/speakers/3.jpg" alt="Speaker 2" class="img-fluid">
+              <img src="{% static 'elevate/assets/img/speakers/3.jpg'%}" alt="Speaker 2" class="img-fluid">
               <div class="details">
 
                 <h3><a href="speaker-details.html">Goldman Sachs</a></h3>
@@ -125,7 +126,7 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="speaker" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/speakers/3.jpg" alt="Speaker 3" class="img-fluid">
+              <img src="{% static 'elevate/assets/img/speakers/3.jpg'%}" alt="Speaker 3" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Goldman Sachs</a></h3>
                 <p>Software Developer </p>
@@ -212,7 +213,7 @@
           <div class="col-lg-4 col-md-6" >
             <div class="hotel" style="position: relative;">
               <div class="hotel-img">
-                <img src="assets/img/hotels/aptitude-test.png" alt="Hotel 1" class="img-fluid">
+                <img src="{% static 'elevate/assets/img/hotels/aptitude-test.png'%}" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="#">Aptitude</a></h3>
               <p>24 February 2022</p>
@@ -224,7 +225,7 @@
           <div class="col-lg-4 col-md-6" >
             <div class="hotel" style="position: relative;">
               <div class="hotel-img">
-                <img src="assets/img/hotels/os.png" alt="Hotel 1" class="img-fluid">
+                <img src="{% static 'elevate/assets/img/hotels/os.png'%}" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="#">Operating System</a></h3>
               <p>27 February 2022</p>
@@ -236,7 +237,7 @@
           <div class="col-lg-4 col-md-6" >
             <div class="hotel" style="position: relative;">
               <div class="hotel-img">
-                <img src="assets/img/hotels/o.png" alt="Hotel 1" class="img-fluid">
+                <img src="{% static 'elevate/assets/img/hotels/o.png'%}" alt="Hotel 1" class="img-fluid">
               </div>
               <h3><a href="#">SQL Programming</a></h3>
               <p>3 March 2022</p>
@@ -330,14 +331,14 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="{% static 'elevate/assets/vendor/aos/aos.js'%}"></script>
+  <script src="{% static 'elevate/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static 'elevate/assets/vendor/glightbox/js/glightbox.min.js'%}"></script>
+  <script src="{% static 'elevate/assets/vendor/swiper/swiper-bundle.min.js'%}"></script>
+  <script src="{% static 'elevate/assets/vendor/php-email-form/validate.js'%}"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{% static 'elevate/assets/js/main.js'%}"></script>
 
 </body>
 

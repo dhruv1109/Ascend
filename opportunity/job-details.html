@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,19 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="assets/images/favicon.png" rel="icon">
+    <link href="{% static 'opportunity/assets/images/favicon.png'%}" rel="icon">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <title>opportunity</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'opportunity/vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="{% static 'opportunity/assets/css/fontawesome.css'%}">
+    <link rel="stylesheet" href="{% static 'opportunity/assets/css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'opportunity/assets/css/owl.css'%}">
 
   </head>
 
@@ -108,7 +109,7 @@
             </div>
 
             <div>
-              <img src="assets/images/3.jpg" alt="" class="img-fluid wc-image">
+              <img src="{% static 'opportunity/assets/images/3.jpg'%}" alt="" class="img-fluid wc-image">
             </div>
 
             <br>
@@ -208,13 +209,13 @@
 
     
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'opportunity/vendor/jquery/jquery.min.js'%}"></script>
+    <script src="{% static 'opportunity/vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
 
 
     <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
+    <script src="{% static 'opportunity/assets/js/custom.js'%}"></script>
+    <script src="{% static 'opportunity/assets/js/owl.js'%}"></script>
   </body>
 
 </html>
